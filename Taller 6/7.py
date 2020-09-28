@@ -11,5 +11,5 @@ print(valores_negativos(nums))
 start_time = time.time()
 valores_negativos(nums)
 print("Tiempo---%s seconds---"%(time.time() - start_time))
-#Su complejidad es de o(n) porque depende del numero de elementos de la lista unicamente y tan solo realiza un bucle
-#El peor de los casos seria cuando todos los elementos son negativos porque tiene que realizar el paso extra "lis2.append(lis[i])"
+""""Su complejidad es de o(n) porque depende del numero de elementos de la lista unicamente y tan solo realiza un bucle
+#El peor de los casos seria cuando todos los elementos son negativos porque tiene que realizar el paso extra "lis2.append(lis[i])"""""
