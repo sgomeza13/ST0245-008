@@ -65,3 +65,4 @@ def OmergeDerecha(unaLista):
     print("Mezclar ",unaLista)
 print("* AQUI COMIENZA EL SEGUNDO ORDENAMIENTO PARA DEMOSTRAR LO DICHO ANTERIORMENTE*")    
 OmergeDerecha(nums)
+#Nota: en este caso despues despues de tres llamadas recursivas la lista se ve así: [29,34]

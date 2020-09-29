@@ -9,8 +9,8 @@ def busqueda_secuencial_matriz(lis,num):
     return False
 for i in range(10):    
     print(i,': ',busqueda_secuencial_matriz(a,i))
-#Busqueda Binaria
-def busquea_binaria_matriz(lis,num):
+#Busqueda Binaria (Solo funciona para matrices cuadradas)
+def busqueda_binaria_matriz(lis,num):
     len_fila = len(lis)
     len_columna = len(lis[0])
     
@@ -29,5 +29,5 @@ def busquea_binaria_matriz(lis,num):
 matriz = [[1,2,3],[4,5,6],[7,8,9]]
 print('#############################')
 for i in range(10):
-    print(i, ": ",busquea_binaria_matriz(matriz,i))
+    print(i, ": ",busqueda_binaria_matriz(matriz,i))
 
