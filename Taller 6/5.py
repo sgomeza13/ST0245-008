@@ -1,5 +1,3 @@
-# Program to find most frequent 
-# element in a list
   
 def contarVotos(lis):
     cont = 0
